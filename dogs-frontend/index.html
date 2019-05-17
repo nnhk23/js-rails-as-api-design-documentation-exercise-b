@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Dogs Searcher</title>
+    <script src="index.js"></script>
+</head>
+
+<body>
+    <h1>Check out these puppers</h1>
+    <form>
+        <label for="search">Search: </label>
+        <input name="search" type="text">
+        <button id="filter">Search</button>
+        <div>
+            Order By:
+            <input type="radio" id="name" name="order" value="name">
+            <label for="name">Email</label>
+
+            <input type="radio" id="breed" name="order" value="breed">
+            <label for="breed">Breed</label>
+
+            <input type="radio" id="phrase" name="order" value="phrase">
+            <label for="phrase">Phrase</label>
+
+            <input type="radio" id="size" name="order" value="size">
+            <label for="size">Size</label>
+        </div>
+    </form>
+    <ul id="dogs-list">
+        <li>
+            <h3 class="name">Sample Dog</h3>
+            <div class="info">
+                <div class="breed">
+                    <label for="breed">Breed: </label>
+                    Spork
+                </div>
+                <div class="phrase">
+                    <label for="phrase">Tweet: </label>
+                    Wat a pup
+                </div>
+                <div class="size">
+                    <label for="size">Size: </label>
+                    V. large
+                </div>
+            </div>
+        </li>
+    </ul>
+</body>
+
+</html>

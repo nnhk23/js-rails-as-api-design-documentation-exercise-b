@@ -17,7 +17,5 @@ Once you've finished writing the documentation, send the markdown file to your p
 
 Your partner will send you a markdown file documenting an API. Using that documentation, add the following feature to your frontend app.
 
-- Add a seach bar to search for dogs
-- When the user presses the 'search' button, fetch the dogs that match the input
-- Display the information about the dogs from the API
-- Add radio buttons to choose the ordering
+- When the user types in the dog search bar and presses the search button, fetch the dogs that match the input and display the information about the dogs from the API
+- When the user selects a different radio button for the ordering, fetch the dogs and display with the selected ordering
