@@ -1,7 +1,7 @@
 class CoffeeController < ApplicationController
     def index
         limit = (params[:limit] || 10).to_i
-        page = (params[:offset] || 0).to_i
+        page = (params[:page] || 0).to_i
         origin_filter = params[:origin] || ""
 
         all = Coffee.all.to_a
