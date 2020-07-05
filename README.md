@@ -27,4 +27,3 @@ documentation, add the following feature to your frontend app.
   the API
 - When the user selects a different radio button for the ordering, fetch the
   dogs and display with the selected ordering
-
